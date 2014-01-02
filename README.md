@@ -28,9 +28,11 @@ References
 "Efficient Variational Inference for Gaussian Process Regression Networks"
 In Proceedings of the 16th International Conference on Artificial Intelligence and Statistics (AISTATS)
 2013, Scottsdale, AZ, USA.
+
 [2] Rasmussen, Carl Edward, and Hannes Nickisch.
 "Gaussian processes for machine learning (GPML) toolbox."
 The Journal of Machine Learning Research 11 (2010): 3011-3015.
+
 [3] Gershman, Samuel, Matt Hoffman, and David Blei.
 "Nonparametric variational inference."
 arXiv preprint arXiv:1206.4665 (2012)
