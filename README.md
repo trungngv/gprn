@@ -1,9 +1,11 @@
-Efficient Variational Inference for Gaussian Process Regression Networks (EVI-GPRN) package. 
-Implements the two variational inference methods for GPRNs of Nguyen and Bonilla [1].
+Efficient Variational Inference for Gaussian Process Regression Networks package. 
+
+This package implements the two variational inference methods for GPRNs of Nguyen and Bonilla [1].
 
 Author: 
 -----
 Trung V. Nguyen (trung.ngvan@gmail.com)
+
 Last update: 03/04/2013
 
 
@@ -15,10 +17,10 @@ Main Contents
 4. npv/npv_predict.m : predict using a trained npv model obtained from npv_predict.m
 5. demo.m : A script demonstrating the use of mean-field and npv on a toy dataset.
 
-External Libraries
+Dependencies
 ------------------
 This code uses two external libraries: the gpml package [2] and the code in [3]
-with modifications by Trung Nguyen to handle high-dimensional datasets.
+with modifications by Trung V. Nguyen to handle high-dimensional datasets.
 
 References
 -----------
