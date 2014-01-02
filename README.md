@@ -9,7 +9,7 @@ Trung V. Nguyen (trung.ngvan@gmail.com)
 Last update: 03/04/2013
 
 
-Main Contents
+Main Content
 -----------
 1. meanfield/mf_train.m : train a GPRN model with mean-field inference method
 2. meanfield/mf_predict.m : predict using a trained mean-field model obtained from mf_train.m
