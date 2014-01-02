@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>GPRN by trungngv</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/trungngv/gprn">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/trungngv/gprn/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/trungngv/gprn/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>GPRN</h1>
+          <p>Gaussian Process Regression Networks</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/trungngv">trungngv</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <p>Efficient Variational Inference for Gaussian Process Regression Networks</p>
+
+<p>This package implements the two variational inference methods for GPRNs of Nguyen and Bonilla [1].</p>
+
+<h2>
+<a name="author-" class="anchor" href="#author-"><span class="octicon octicon-link"></span></a>Author: </h2>
+
+<p>Trung V. Nguyen (<a href="mailto:trung.ngvan@gmail.com">trung.ngvan@gmail.com</a>)</p>
+
+<p>Last update: 03/04/2013</p>
+
+<h2>
+<a name="main-contents" class="anchor" href="#main-contents"><span class="octicon octicon-link"></span></a>Main Contents</h2>
+
+<ol>
+<li>meanfield/mf_train.m : train a GPRN model with mean-field inference method</li>
+<li>meanfield/mf_predict.m : predict using a trained mean-field model obtained from mf_train.m</li>
+<li>npv/npv_train.m : train a GPRN model with npv inference method</li>
+<li>npv/npv_predict.m : predict using a trained npv model obtained from npv_predict.m</li>
+<li>demo.m : A script demonstrating the use of mean-field and npv on a toy dataset.</li>
+</ol><h2>
+<a name="dependencies" class="anchor" href="#dependencies"><span class="octicon octicon-link"></span></a>Dependencies</h2>
+
+<p>This code uses two external libraries: the gpml package [2] and the code in [3]
+with modifications by Trung V. Nguyen to handle high-dimensional datasets.</p>
+
+<h2>
+<a name="references" class="anchor" href="#references"><span class="octicon octicon-link"></span></a>References</h2>
+
+<p>[1] Trung V. Nguyen and Edwin V. Bonilla.
+"Efficient Variational Inference for Gaussian Process Regression Networks"
+In Proceedings of the 16th International Conference on Artificial Intelligence and Statistics (AISTATS)
+2013, Scottsdale, AZ, USA.</p>
+
+<p>[2] Rasmussen, Carl Edward, and Hannes Nickisch.
+"Gaussian processes for machine learning (GPML) toolbox."
+The Journal of Machine Learning Research 11 (2010): 3011-3015.</p>
+
+<p>[3] Gershman, Samuel, Matt Hoffman, and David Blei.
+"Nonparametric variational inference."
+arXiv preprint arXiv:1206.4665 (2012)</p>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
